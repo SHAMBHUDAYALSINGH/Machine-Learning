@@ -1,0 +1,12 @@
+In pattern recognition, the k-nearest neighbors algorithm (k-NN) is a non-parametric method used for 
+classification and regression.In both cases, the input consists of the k closest training examples in 
+the feature space. The output depends on whether k-NN is used for classification or regression:
+
+Pseudocode for KNN:
+1.Load the dataset
+2.take the new data to be classified
+3.Find the distances between that data  and all the other data points in the dataset
+4.sort the distances
+5.Select top k labels and find the label with maximum frequency
+6.Label the new data as the class with maximum frequency
+
